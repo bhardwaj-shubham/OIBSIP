@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.container {
+    width: 88%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: #F9F3E6;
+    font-weight: 600;
+    display: flex;
+    padding: 2px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 50%;
+    padding: 6px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.brand {
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 7%;
+    padding: 1.4rem;
+}
+
+/* Main */
+
+.title-img {
+    max-width: 100%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    width: 62%;
+}
+
+.header-content {
+    padding: 2rem;
+    margin-right: 6em;
+}
+
+.header-content p {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.booking-btn {
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    margin: 2px;
+    padding: 16px;
+    font-size: 24px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.booking-btn:hover {
+    background-color: #A7D2CB;
+    color: #000;
+}
+
+/* Feature Section */
+
+#features h2 {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 8px;
+    color: #86A3B8;
+    margin-bottom: 2px;
+}
+
+#features h2:hover {
+    color: #000;
+}
+
+.row img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.col {
+    display: flex;
+}
+
+.row {
+    width: 25%;
+    height: 250px;
+    padding: 5em;
+    margin: 2em;
+    text-align: center;
+}
+
+.row p {
+    font-size: 1.4rem;
+}
+
+/* About Section */
+
+.about {
+    display: flex;
+    text-align: center;
+    padding: 4rem;
+}
+
+.enquiry {
+    background-color: #F4F0E2;
+    width: 40%;
+    padding-top: 4rem;
+}
+
+.brand-info {
+    border: 2px dashed orange;
+    background-color: #FEFCF3;
+    width: 60%;
+    margin: auto 2em;
+    padding: 3em;
+}
+
+.brand-info h1 {
+    color: #FF8787;
+}
+
+.brand-info h2 {
+    color: #F8C4B4;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #E1D7C6;
+    margin: 0 auto;
+    padding: 4em;
+    display: flex;
+}
+
+.copyright {
+    width: 50%;
+    padding-left: 1.4rem;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+}
+
+.media {
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.media i {
+    padding: 10px;
+}
