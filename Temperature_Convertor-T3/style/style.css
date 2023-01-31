@@ -1,9 +1,92 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #AAE3E2 0, #D9ACF5 100%);
+}
+
+main {
+  text-align: center;
 }
 
 h1 {
-    color: rebeccapurple;
+  color: #645CBB;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 6rem;
+}
+
+.form {
+  text-align: center;
+  padding-left: 10%;
+  margin-top: 0;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.part {
+  display: flex;
+  padding: 4px;
+  margin: 2px;
+}
+
+input {
+  padding: 4px;
+  width: 12rem;
+  height: 1.8rem;
+  border-radius: 30rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-color: #645CBB;
+}
+
+select, option {
+  margin: auto 2rem;
+  padding: 10px;
+  border-radius: 30rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  border-color: #645CBB;
+  background-color: #EBC7E6;
+  cursor: pointer;
+}
+
+span {
+  padding: 14px 7px;
+  margin-right: 1.8rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button {
+  padding: 12px;
+  margin: 3.2rem;
+  border-radius: 20rem;
+  font-size: 18px;
+  font-weight: 700;
+  width: 14%;
+  background-color: #FFFBF5;
+  color: #000;
+}
+
+button:hover {
+  background-color: #AEE2FF;
+  cursor: pointer;
 }
